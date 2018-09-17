@@ -1,4 +1,5 @@
-*.class
+# python 
+.ipynb_checkpoints
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
