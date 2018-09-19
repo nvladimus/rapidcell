@@ -85,3 +85,5 @@ It accurately reproduces the average characteristics of cell response to attract
 If you use RapidCell in your work, please kindly cite the original paper:
 
 * Vladimirov N, Lovdok L, Lebiedz D, Sourjik V, (2008). *Dependence of bacterial chemotaxis on gradient shape and adaptation rate.* [PLoS Comput Biol 4(12): e1000242](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2588534/?tool=pubmed)
+
+[Papers citing RapidCell](https://scholar.google.de/scholar?hl=en&as_sdt=0%2C5&q=%22rapidcell%22+vladimirov&btnG=)
