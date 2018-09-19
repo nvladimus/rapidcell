@@ -11,21 +11,21 @@ The simulation results are saved as .txt files for analysis in your favourite pr
 ![Chemotaxis pathway](/img/network.gif)
 
 ### Features
-Simulation of cells swimming in 2D with realistic run and tumble times, and with effect of rotational diffusion.
+* Simulation of cells swimming in 2D with realistic run and tumble times, and with effect of rotational diffusion.
 
-Simultaneous running of up to 1,000,000 cells on your desktop (no need for parallel/super computer).
+* Simultaneous running of up to 1,000,000 cells on your desktop (no need for parallel/super computer).
 
-Model correctly reproduces the high sensitivity of the chemotactic pathway (FRET experiments).
+* Model reproduces the high sensitivity of the chemotactic pathway (FRET experiments).
 
-Multiple flagellar motors are simulated explicitly (!), and their number affect run and tumble times.
+* Multiple flagellar motors are simulated explicitly (!), and their number affect run and tumble times.
 
-Gradient of attractant can be chosen from 8 pre-defined shapes, or defined by user.
+* Gradient of attractant can be chosen from 8 pre-defined shapes, or defined by user.
 
-Composition of receptor cluster (Tar and Tsr receptors) can be defined by user.
+* Composition of receptor cluster (Tar and Tsr receptors) can be defined by user.
 
-Protein levels (CheA, CheR, CheB, CheY) can be altered to simulate mutants.
+* Protein levels (CheA, CheR, CheB, CheY) can be altered to simulate mutants.
 
-Runs on any operational system (tested on Windows XP, Suse Linux, Mac OS X).
+* Runs on any operational system (tested on Windows XP, Suse Linux, Mac OS X).
 
 Source code is simple and open.
 
@@ -45,14 +45,14 @@ Set the desired parameters in GUI and click *Run* button. After RapidCell is com
 
 `individuals.out`, variables of individual cells over time;
 
-`averages.out` , variables over time, averaged over the population.
+`averages.out`, variables over time, averaged over the population.
 
-[Analysis in Python using Jupyter notebook]()
+[Analysis in Python using Jupyter notebook](./analysis_demo.ipynb)
 
 ### Compilation from sources
 The program is already compiled and runs as is. If you changed the source code, you need to re-compile it. To do this, make sure that `javac` works from command line in your current directory. If not, check that you have the [Java SE Development Kit 6 (JDK 6)](http://java.sun.com/javase/6/download.jsp) or newer (you need the **JDK**, not JRE.)
 
-If  `javac` command still does not work after JDK installation, set up the `PATH` variable to include your JDK binaries folder (`jdk1.6.0_<version>/bin`). See more information about setting PATH in [Java Tutorial](https://docs.oracle.com/javase/tutorial/essential/environment/paths.html)
+If  `javac` command still does not work after JDK installation, set up the `PATH` variable to include your JDK binaries folder (`jdk1.6.0_<version>/bin`). See more information about setting PATH in [Java Tutorial](https://docs.oracle.com/javase/tutorial/essential/environment/paths.html).
 
 When `javac` finally works in command line, compile the program
 ```javac *.java```
@@ -82,6 +82,6 @@ It accurately reproduces the average characteristics of cell response to attract
 ![Panel 6](/screenshots/screen6.png)
 
 ### References
-If you use RapidCell in your work, please kindly refer to the original paper:
+If you use RapidCell in your work, please kindly cite the original paper:
 
 * Vladimirov N, Lovdok L, Lebiedz D, Sourjik V, (2008). *Dependence of bacterial chemotaxis on gradient shape and adaptation rate.* [PLoS Comput Biol 4(12): e1000242](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2588534/?tool=pubmed)
