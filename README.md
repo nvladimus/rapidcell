@@ -74,12 +74,7 @@ Q: How accurate is it?
 It accurately reproduces the average characteristics of cell response to attractant addition/removal: drop/rise of CheY-P, rate of receptor methylation and demethylation, clockwise and counter-clockwise switching times of flagellar motors, running and tumbling times of a swimming cell. Cellular parameters are taken from available literature: receptor cluster composition, number of flagellar motors per cell, cell swimming speed, rotational diffusion and the angle of cell tumbling. It is as realistic as I could make it based on available experimental data at the time of publication (2008).
 
 ### Screenshots
-![Panel 1](/screenshots/screen1.png)
-![Panel 2](/screenshots/screen2.png)
-![Panel 3](/screenshots/screen3.png)
-![Panel 4](/screenshots/screen4.png)
-![Panel 5](/screenshots/screen5.png)
-![Panel 6](/screenshots/screen6.png)
+![Screenshots](/img/allScreens.png)
 
 ### References
 If you use RapidCell in your work, please kindly cite the original paper:
