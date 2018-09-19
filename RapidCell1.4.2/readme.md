@@ -15,7 +15,5 @@ try to run java with the appropriate memory allocation arguments (e.g. min 32 Mb
 
 ### Current limitations
 * Cells are simulated in 2D space, and it is designed intentionally to avoid excessive computation.
-* CheB activity is assumed constant. In reality, CheB has positive feedback from CheA activity via phosphorylation, so the system response (CheYp) 
-adapts to negative stimuli faster than to positive ones. This presumably reduces tumbling time of a cell in escape response. The current model is
- accurate for positive responses, such as swimming in attractants.
+* CheB activity is assumed constant. In reality, CheB has positive feedback from CheA activity via phosphorylation, so the system response (CheYp)  adapts to *negative* stimuli faster than to positive ones. This presumably reduces tumbling time of a cell in escape response, but it's role in realistic attractant gradients remains unclear.
 * Accordingly, only attractants are currently simulated by the program. Repellents or temperature gradients are no implemented, but can be added by motivated users ;)
